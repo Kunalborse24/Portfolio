@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Switch from "react-switch";
-import clsx from "clsx";
+// import clsx from "clsx";
 import { useTranslation } from "react-i18next";
 import { Icon } from "@iconify/react";
 import { TypeAnimation } from "react-type-animation";
@@ -11,7 +11,7 @@ const Header = () => {
     ThemeContext,
   ) as ThemeContextInterface;
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
